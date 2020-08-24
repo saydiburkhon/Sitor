@@ -61,12 +61,12 @@ h1, h2, h3, h4, h5,
   visibility: hidden; }
 
 .offcanvas-menu .site-wrap {
-  position: absolute;
+  position: relative;
   z-index: 2;
   overflow: hidden; }
   .offcanvas-menu .site-wrap:before {
     opacity: 1;
-    visibility: visible; }
+    display: block;}
 
 .btn {
   border-radius: 30px; }
