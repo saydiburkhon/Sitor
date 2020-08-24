@@ -1,0 +1,72 @@
+{% load static  %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sitora Rakhmonova art</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'app/fonts/icomoon/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/owl.theme.default.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/css/bootstrap-datepicker.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/fonts/flaticon/font/flaticon.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/css/aos.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/jquery.scrollbar.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/fancybox.min.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/swiper.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'app/css/changestyle.css' %}">
+
+
+  </head>
+  <body>
+
+
+  <div class="site-wrap">
+
+  <div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close mt-3">
+        <span class="icon-close2 js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+
+  <header class="header-bar d-flex d-lg-flex align-items-center" data-aos="fade-down">
+    <div class="site-logo">
+
+      <a href="{% url 'home' %}"><img width="150px;" src="{% static 'app/images/logositor.png' %}"></a>
+    </div>
+
+    <div class="d-inline-block d-xl-block ml-md-0 ml-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span> <span style="position: relative;top: -4px; text-transform: uppercase;">Menu</span></a></div>
+
+    <div class="main-menu d-none">
+      <ul class="js-clone-nav">
+        <li class="active"><a href="{% url 'home' %}">Home</a></li>
+        <li><a href="{% url 'photos' %}">Photos</a></li>
+        <li><a href="{% url 'bio' %}">About Me</a></li>
+        <li><a href="{% url 'contact' %}">Contact</a></li>
+      </ul>
+      <ul class="social js-clone-nav">
+        <li><a href="https://www.facebook.com/profile.php?id=100030534832531"><span class="icon-facebook"></span></a></li>
+        <li><a href="https://web.telegram.org/#/im?p=@sitorarakhmonova"><span class="icon-whatsapp"></span></a></li>
+        <li><a href="https://www.instagram.com/sr__art13/"><span class="icon-instagram"></span></a></li>
+      </ul>
+    </div>
+  </header>
+  {% block content %}
+
+  {% endblock %}
