@@ -38,7 +38,7 @@ input[type="text" i] {
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:764px){
   .change1 svg{
     width:30px;
     position: relative;
@@ -52,7 +52,7 @@ input[type="text" i] {
   }
   .mb-5{
     font-size:10px;
-    width:250px;
+    width:300px;
     margin:15px;
   }
   .site-wrap img{
@@ -62,7 +62,7 @@ input[type="text" i] {
   }
   .site-wrap header{
     position: relative;
-    right:85px;
+    right:45px;
   }
   .col-md-12 p{
     font-size:10px;
