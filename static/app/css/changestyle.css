@@ -4,7 +4,7 @@
     height: 100vh;
     min-height: 400px;
     overflow: auto;
-    background: #ffecef;
+    background: #000000 !important;
     padding: 30px;
     text-align: right;
     position: fixed;
@@ -18,8 +18,9 @@
 }
 
 .text-white {
-    color: #080808!important;
+    color: #white !important;
 }
+
 
 
 body {
@@ -27,11 +28,45 @@ body {
     color: gray;
     font-weight: 400;
     font-size: 1rem;
-    background: #ffecef;
+    background: #000000 !important;
 }
 
 
 input[type="text" i] {
     padding: 1px 2px;
     color: black;
+}
+
+
+@media screen and (max-width:768px){
+  .change1 svg{
+    width:30px;
+    position: relative;
+    right: 25px;
+
+  }
+  .change1 h3{
+    font-size:10px;
+    position: relative;
+    right: 25px;
+  }
+  .mb-5{
+    font-size:10px;
+    width:250px;
+    margin:15px;
+  }
+  .site-wrap img{
+    position: relative;
+    left:50px;
+    width:80px;
+  }
+  .site-wrap header{
+    position: relative;
+    right:85px;
+  }
+  .col-md-12 p{
+    font-size:10px;
+    position: relative;
+    right: 25px;
+  }
 }
