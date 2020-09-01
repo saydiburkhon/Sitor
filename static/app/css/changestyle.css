@@ -50,16 +50,4 @@ input[type="text" i] {
     position: relative;
     right: 15px;
   }
-  .mb-5{
-    font-size:10px;
-    width:300px;
-    margin:15px;
-  }
-  .site-wrap img{
-    position: relative;
-    left:50px;
-    width:80px;
-  }
-
-
-}
+  
